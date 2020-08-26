@@ -13,6 +13,8 @@ public class YatzyTest {
     }
     */
 
+    // TEST FOR NY BRANCH
+
     @Test
     void shouldCalculateForOnes() {
         assertEquals(0, new YatziGame().score("ONES", new int[] { 2, 3, 4, 5, 6 }));
